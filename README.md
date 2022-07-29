@@ -1,4 +1,4 @@
 # Anime-List
 
-# https://youtu.be/FkGeAxukg5I
-# https://youtu.be/FkGeAxukg5I
+
+Preview video on Youtube: https://youtu.be/FkGeAxukg5I

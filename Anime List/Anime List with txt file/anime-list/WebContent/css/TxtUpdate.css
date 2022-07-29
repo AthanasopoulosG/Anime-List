@@ -1,0 +1,125 @@
+.header {
+		text-align: center;
+  		padding: 10px;
+  		font-size:3em;
+  		text-decoration: underline;
+  		text-shadow: 	0 1px 0 #333333,
+  						0 2px 0 #c9c9c9,
+  						0 3px 0 #000,
+  		  				0 4px 0 #b9b9b9,
+  		  			 	0 5px 0 #111,
+  		  			 	0 6px 1px rgba(0,0,0,.1),
+  		   			 	0 0 5px rgba(0,0,0,.1),
+						0 1px 3px rgba(0,0,0,.3),
+					 	0 3px 5px rgba(0,0,0,.2),
+  				 		0 5px 10px rgba(0,0,0,.25),
+  		 			 	0 10px 10px rgba(0,0,0,.2),
+  		  		 		0 20px 20px rgba(0,0,0,.15);
+  		
+	}
+	
+	
+	
+	body {
+  		counter-reset: section;
+  		background-color: #f5deb3;
+  		background-color: #ffe4c4;
+  		background-color: #fff8dc;
+	}
+	
+	*{
+		box-sizing: border-box;
+		margin: 0 ;
+		padding: 0;
+	}
+	
+	img {
+		position: fixed;
+		top: 0;
+		z-index: -2;
+		width: 100% ;
+		height: 100% ;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.text_container {
+		width: 100% ;
+	
+	}
+	
+	textarea {
+		width: 60%;
+	    margin: 0 20%;
+	    margin-top: 15px;
+	    min-height: 160px;
+	    padding: 3px;
+	    opacity: 0.8;
+	    border-style: ridge;
+    	border-width: 22px 15px;
+    	overflow: auto;
+	}
+	
+	.name {
+		font-size: 1.6em; 
+		text-align: center;
+    	margin-top: 100px;
+    	text-shadow: 2px 0 white;
+	}
+	
+	.buttons {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		text-align: center;
+	}
+	
+	form {
+		width:50%;
+	    margin-top: 10px;
+	}
+	
+	#save {
+	    float: right;
+	    margin: auto;
+	    margin-right: 2%;
+	    width: 80px;
+   	 	height: 40px;
+    	border-radius: 25%;
+    	background-image: linear-gradient(to bottom right, red, yellow);
+    	background:	linear-gradient(145deg, 
+			    	rgba(112,168,145,1) 15%, 
+			    	rgba(255,255,255,1) 50%, rgba(112,168,145,1) 85%);
+		transition: transform 0.5s;
+	}
+	
+	#cancel {
+	    background: red;
+	    float: left;
+	    margin: auto;
+	    margin-left: 2%;
+	    width: 80px;
+    	height: 40px;
+    	border-radius: 25%;
+    	background-image: radial-gradient(red 16%,#fdea00 86% , yellow 100%);
+    	transition: transform 0.5s;
+	}
+	
+	
+	#save:hover {
+		transform: scale(1.1) ;
+		box-shadow: 0 0 4px 5px black;
+		background:	linear-gradient(34deg, 
+			    	rgba(112,168,145,1) 15%, 
+			    	rgba(255,255,255,1) 50%, rgba(112,168,145,1) 85%);
+	}
+	
+	#cancel:hover {
+		transform: scale(1.1) ;
+		background-image:radial-gradient(yellow 16%, gold 86% , red 100%);
+		box-shadow: 0 0 4px 5px black;
+	}
+	
+	
+	

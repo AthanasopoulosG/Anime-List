@@ -1,0 +1,17 @@
+
+****************************************************************
+This project of me is only for personal use at localhost.
+
+Uploading on a public server is prohibited and will be punished. 
+
+Getting ideas of the code provided or copying a part of it and use it on your own projects is 
+allowed. 
+
+Advertising it on Youtube or any other platform is also prohibited since there will be/is 
+already an official video with a demo of using the program.
+
+I know that there exist many people who try to make money with the effort and contributions of other
+people in this world so dont make me regret putting it as a free/open source project.
+
+Dont violate any rights of the official owner and Enjoy it :} !!!! 
+*****************************************************************

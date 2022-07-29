@@ -12,7 +12,7 @@ Preview video on Youtube
 In order to set up and run the .war file these steps must be taken first
 ***************************************************************************
 
-1. Download java jre to compile files in server
+1. Download java jre to compile files on server
 
 2. Download apache-tomcat-9 version (tested and recommended) https://tomcat.apache.org/download-90.cgi
    and search for the Windows Service Installer .(search linux/mac installation proccess online)

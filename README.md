@@ -29,25 +29,25 @@ In order to set up and run the .war file these steps must be taken first
 
 5. ONLY FOR DATABASE PROJECT (myanime.war)
    
-  I. Download MySql Workbench (im using v8) from https://www.mysql.com/products/workbench/ 
-   (if you have knowledge of sql scripting you can use cmd too but Workbench makes it easier and faster)
+     I. Download MySql Workbench (im using v8) from https://www.mysql.com/products/workbench/ 
+      (if you have knowledge of sql scripting you can use cmd too but Workbench makes it easier and faster)
   
-  II. Open MySQL Workbench and create a new connection pressing on the + icon next to MySQL Connections
+     II. Open MySQL Workbench and create a new connection pressing on the + icon next to MySQL Connections
   
-  III.  Click on administration on the down-left side of workbench and startup the instance.
+     III.  Click on administration on the down-left side of workbench and startup the instance.
   
-  IV. Fill spaces with anything you want except for username and password since username must be "root"
+     IV. Fill spaces with anything you want except for username and password since username must be "root"
        and password must be "roota" otherwise the programm wont be able to access database.(case sensitive)
   
-   V. Once the connection is created double click it and create a new database called anime. 
-      After that select anime database, press import on the menu bar and select the anime.sql file
-      which was in the downloaded package from github. (case sensitive)
+      V. Once the connection is created double click it and create a new database called anime. 
+       After that select anime database, press import on the menu bar and select the anime.sql file
+       which was in the downloaded package from github. (case sensitive)
   
-  VI. To skip step III a custom username and password can be put but a new .war must be created by 
-      changing the values inside Hibernate.java file and exporting it again as .war. This step
-      isnt recommended for a beginner or someone who hasnt any knowledge on programming because it 
-      takes many steps to make it work which i wont mention except of that it needs an IDE like Eclipse
-      and install tomcat server inside it.
+     VI. To skip step III a custom username and password can be put but a new .war must be created by 
+       changing the values inside Hibernate.java file and exporting it again as .war. This step
+       isnt recommended for a beginner or someone who hasnt any knowledge on programming because it 
+       takes many steps to make it work which i wont mention except of that it needs an IDE like Eclipse
+       and install tomcat server inside it.
   
 6. The txt file (AnimeList.txt) created by the programm can be found in 
    C:\Program Files\Apache Software Foundation\Tomcat 9.0\ 

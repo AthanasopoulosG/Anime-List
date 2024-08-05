@@ -28,6 +28,7 @@ In order to set up and run the .war file these steps must be taken first
    or save it wherever you like but later on it has to be dragged into the above folder to work.
 
 5. ONLY FOR DATABASE PROJECT (myanime.war)
+   
   I. Download MySql Workbench (im using v8) from https://www.mysql.com/products/workbench/ 
    (if you have knowledge of sql scripting you can use cmd too but Workbench makes it easier and faster)
   

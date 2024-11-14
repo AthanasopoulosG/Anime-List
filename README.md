@@ -54,7 +54,7 @@ In order to set up and run the .war file these steps must be taken first
 
 7. Last step would be to drag the .war file(s) into 
    C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\
-   and with this everything should be done and you are ready to start using your own local Anime list
+   and with this everything should be done and you are ready to start using your own local Anime list.
    Type localhost:8080/myanime 	or  localhost:8080/anime-list depending on what you are using and 
    Enjoy it :}.
    

@@ -6,7 +6,15 @@ Preview video on Youtube
 
 [![SC2 Video](https://img.youtube.com/vi/FkGeAxukg5I/0.jpg)](http://www.youtube.com/watch?v=FkGeAxukg5I)
 
-
+***************************************************************************
+Fast Install and run (No Database)
+***************************************************************************
+- Download apache-tomcat-9 version (tested and recommended) https://tomcat.apache.org/download-90.cgi
+   and search for the Windows Service Installer .(search linux/mac installation proccess online)
+- Copy error.png and rasengan.png inside ~\ Tomcat 9.0\webapps\docs\images and create a folder named
+  "anime" for any additional image file.
+- Copy anime-list.war file in ~\Tomcat 9.0\webapps\ (install directory of your tomcat server like above).
+  Open browser type localhost:8080/anime-list and you are done and ready to go :}.
 
 ***************************************************************************
 In order to set up and run the .war file these steps must be taken first

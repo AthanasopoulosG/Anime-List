@@ -1,13 +1,13 @@
-# Anime-List
+## Anime-List
 
 
-Preview video on Youtube
+#Preview video on Youtube
 
 
 [![SC2 Video](https://img.youtube.com/vi/FkGeAxukg5I/0.jpg)](http://www.youtube.com/watch?v=FkGeAxukg5I)
 
 ***************************************************************************
-Fast Install and run (No Database)
+#Fast Install and run (No Database)
 ***************************************************************************
 - Download apache-tomcat-9 version (tested and recommended) https://tomcat.apache.org/download-90.cgi
    and search for the Windows Service Installer .(search linux/mac installation proccess online)
@@ -16,9 +16,7 @@ Fast Install and run (No Database)
 - Copy anime-list.war file in ~\Tomcat 9.0\webapps\ (install directory of your tomcat server like above).
   Open browser type localhost:8080/anime-list and you are done and ready to go :}.
 
-***************************************************************************
-In order to set up and run the .war file these steps must be taken first
-***************************************************************************
+#In order to set up and run the .war file these steps must be taken first
 
 1. Download java jre to compile files on server
 
@@ -65,5 +63,20 @@ In order to set up and run the .war file these steps must be taken first
    and with this everything should be done and you are ready to start using your own local Anime list.
    Type localhost:8080/myanime 	or  localhost:8080/anime-list depending on what you are using and 
    Enjoy it :}.
-   
-***************************************************************************************************************
+
+
+## Features and Functions
+- Keep track of all series / movies you want to see, have seen or have paused to continue another time.
+- Add new movie/series, delete or update an existing one.
+- Add/Update information on each entry like:
+   - Name (Unique)
+   - Type (Movie/Series etc)
+   - Genre (can select more than 1)
+   - Image
+   - Seasons (if it is divided in seasons and how many)
+   - Status (Completed, Ongoing, On list to watch) for the user and not the series itself.
+   - Personal Rating ()
+-![image](https://github.com/user-attachments/assets/8b3f87ad-eea1-4a66-a46b-15ab437ac7fc)
+ 
+
+

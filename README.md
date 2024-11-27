@@ -75,8 +75,21 @@
    - Image
    - Seasons (if it is divided in seasons and how many)
    - Status (Completed, Ongoing, On list to watch) for the user and not the series itself.
-   - Personal Rating ()
--![image](https://github.com/user-attachments/assets/8b3f87ad-eea1-4a66-a46b-15ab437ac7fc)
+   - Personal Rating
+- Filter shown entries based on status or genre
+- After a successfull entry the user can add a summary or his personal notes for it.
+- Home screen shows up to 5 random ongoing series that the user hasn't finished yet
+- Option to display the entries in 3 different ways:
+   - Block Display:  Big rectangular block that contains all info including summary and notes.
+   - List Display: Small rectangular container which holds only the key information like name, genres, rating and status so that the user can list many entries simultaneously on screen.
+   - Card Display: Card shaped container which displays more information than the list display but less than the block display.
+- Search bar to search any entry-ies by name and return a list of entries (Use of substring in Name).
+- Open source so anyone can modify the code however he pleases but isn't allowed to sell the end product.
+- Responsive and flexible UI.
+- Can run on any machine and linked to a protected database (Needs some knowledge of coding to make it work though)
+- Can be easily be set up to a local network with the help of another app. I personaly have used XAMPP to have access to my database from any device inside my home including my mobile phone.
+
+
  
 
 

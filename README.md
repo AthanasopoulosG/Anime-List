@@ -7,7 +7,7 @@
 [![SC2 Video](https://img.youtube.com/vi/FkGeAxukg5I/0.jpg)](http://www.youtube.com/watch?v=FkGeAxukg5I)
 
 ***************************************************************************
-##Fast Install and run (No Database)
+## Fast Install and run (No Database)
 ***************************************************************************
 - Download apache-tomcat-9 version (tested and recommended) https://tomcat.apache.org/download-90.cgi
    and search for the Windows Service Installer .(search linux/mac installation proccess online)

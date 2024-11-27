@@ -16,7 +16,7 @@
 - Copy anime-list.war file in ~\Tomcat 9.0\webapps\ (install directory of your tomcat server like above).
   Open browser type localhost:8080/anime-list and you are done and ready to go :}.
 
-#In order to set up and run the .war file these steps must be taken first
+## In order to set up and run the .war file these steps must be taken first
 
 1. Download java jre to compile files on server
 
